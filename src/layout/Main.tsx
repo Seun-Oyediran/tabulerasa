@@ -17,7 +17,7 @@ const MainWrapper = (props: IProps) => {
   return (
     <div className="app-con">
       <Header />
-      <div className="px-5 py-4">{children}</div>
+      <div className="px-5 py-4 app-container">{children}</div>
     </div>
   );
 };

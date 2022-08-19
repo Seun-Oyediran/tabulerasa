@@ -2,7 +2,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { ReactNode } from 'react';
 import routes from '../../routes';
-import { ArrowRight, BackArrow, Draft, Requests, SearchIcon } from '../../svg';
+import {
+  ArrowRight, BackArrow, Draft, Requests, SearchIcon,
+} from '../../svg';
 
 interface IQuestionLink {
   text: string;
@@ -43,7 +45,9 @@ const QuestionLeftSidebar = () => {
       <div className="box">
         <Link href="/">
           <a className="back-btn d-flex align-items-center" href="/">
-            <BackArrow /> Back
+            <BackArrow />
+            {' '}
+            Back
           </a>
         </Link>
 

@@ -18,7 +18,11 @@ const Topic = (props: IProps) => {
         </div>
         <div>
           <h4>{name}</h4>
-          <p>{formatFollowersNos(followers)} followers</p>
+          <p>
+            {formatFollowersNos(followers)}
+            {' '}
+            followers
+          </p>
         </div>
       </div>
 

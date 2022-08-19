@@ -1,7 +1,12 @@
+export { default as Answer } from './Answer';
 export { default as ArrowRight } from './ArrowRight';
 export { default as BackArrow } from './BackArrow';
+export { default as Delete } from './Delete';
 export { default as Draft } from './Draft';
 export { default as Preferences } from './Preferences';
+export { default as QuestionMenu } from './QuestionMenu';
 export { default as Requests } from './Requests';
 export { default as SearchIcon } from './SearchIcon';
 export { default as Shuffle } from './Shuffle';
+export { default as Useful } from './Useful';
+export { default as Write } from './Write';

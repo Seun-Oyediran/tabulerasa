@@ -10,7 +10,9 @@ interface IProps {
 }
 
 export default function SubmitButton(props: IProps) {
-  const { title, className, isLoading, href, onClick } = props;
+  const {
+    title, className, isLoading, href, onClick,
+  } = props;
 
   if (href) {
     return (
