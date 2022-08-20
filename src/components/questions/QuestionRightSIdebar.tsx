@@ -33,7 +33,7 @@ const QuestionRightSIdebar = () => {
               </div>
             </div>
 
-            <div>
+            <div className="my-4">
               <ComingSoonCard
                 title="Need help"
                 message="Find a lawyer on the Tabulerasa marketplace by posting a brief about your situation."
